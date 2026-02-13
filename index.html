@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Favourite ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<style>
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:linear-gradient(135deg,#ff4e8a,#ff9a9e);
+color:white;
+text-align:center;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+overflow:hidden;
+}
+
+.card{
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(10px);
+padding:40px;
+border-radius:25px;
+width:90%;
+max-width:600px;
+box-shadow:0 15px 40px rgba(0,0,0,0.2);
+animation:fadeIn 2s ease-in-out;
+}
+
+h1{
+font-size:2.2rem;
+margin-bottom:10px;
+}
+
+button{
+margin-top:20px;
+padding:15px 35px;
+border:none;
+border-radius:50px;
+font-size:18px;
+cursor:pointer;
+background:white;
+color:#ff4e8a;
+font-weight:bold;
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.1);
+}
+
+.note{
+display:none;
+margin-top:25px;
+text-align:left;
+line-height:1.8;
+font-size:16px;
+animation:fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn{
+from{opacity:0; transform:translateY(20px);}
+to{opacity:1; transform:translateY(0);}
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+<h1>Happy Valentine Favourite ❤️</h1>
+<h2>Will you be my Valentine?</h2>
+
+<button onclick="showNote()">Yes 💖</button>
+
+<div class="note" id="loveNote">
+<p>
+Favourite,
+<br><br>
+From the day we started talking, I didn’t know something this meaningful was beginning.
+What felt small and simple slowly became something I protect in my heart.
+<br><br>
+I remember how we started… the conversations, the curiosity, the laughter.
+And now look at us — sharing our thoughts, our days, our emotions.
+<br><br>
+I may not have the biggest money right now.
+I may not buy the most expensive gifts.
+But what I am giving you today is something deeper.
+It is intentional.
+It is sincere.
+It is my heart.
+<br><br>
+I am not just loving who you are.
+I am loving who we are becoming.
+And I see a future that is growing step by step.
+<br><br>
+No matter where life takes us,
+no matter the tests,
+I want you to remember how pure this started.
+<br><br>
+Favourite,
+this is me choosing you.
+Not because of pressure.
+Not because of fear.
+But because my heart is calm with you.
+<br><br>
+Happy Valentine ❤️
+</p>
+</div>
+</div>
+
+<script>
+function showNote(){
+document.getElementById("loveNote").style.display="block";
+}
+</script>
+
+</body>
+</html>
